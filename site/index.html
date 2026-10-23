@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>SLKM – Transport de Voyageurs &amp; Messagerie Express</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary":"#ffffff","on-error-container":"#93000a","on-tertiary-container":"#eaf1ff","primary-container":"#0272b6","surface-container-highest":"#d5e3ff","error-container":"#ffdad6","inverse-on-surface":"#ebf1ff","on-secondary-fixed":"#360f00","surface":"#f9f9ff","surface-container-lowest":"#ffffff","tertiary-fixed":"#d1e4ff","outline-variant":"#c0c7d2","error":"#ba1a1a","on-tertiary-fixed-variant":"#00497c","on-secondary-container":"#5d1f00","secondary-container":"#fe702a","on-primary-fixed-variant":"#004a78","background":"#f9f9ff","primary-fixed":"#cfe5ff","secondary-fixed-dim":"#ffb597","on-primary-container":"#e9f2ff","on-secondary":"#ffffff","on-tertiary-fixed":"#001d35","surface-dim":"#c8dbfc","secondary-fixed":"#ffdbcd","surface-tint":"#00629e","on-surface":"#071c35","outline":"#707882","on-background":"#071c35","tertiary-container":"#2771b1","surface-container-low":"#f0f3ff","primary":"#005990","secondary":"#a43d00","tertiary":"#005893","tertiary-fixed-dim":"#9dcaff","inverse-surface":"#1f314b","inverse-primary":"#9acbff","surface-bright":"#f9f9ff","on-secondary-fixed-variant":"#7d2d00","on-error":"#ffffff","surface-variant":"#d5e3ff","surface-container":"#e7eeff","on-tertiary":"#ffffff","on-surface-variant":"#404750","on-primary-fixed":"#001d34","surface-container-high":"#dee9ff","primary-fixed-dim":"#9acbff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"2rem","space-xs":"0.25rem","space-lg":"1.5rem","gutter":"1.5rem","space-sm":"0.5rem","space-xl":"2.5rem","space-md":"1rem"},fontFamily:{"display-hero":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"]},fontSize:{"display-hero":["48px",{"lineHeight":"56px","fontWeight":"800"}],"headline-xl-mobile":["26px",{"lineHeight":"34px","fontWeight":"700"}],"headline-lg":["28px",{"lineHeight":"36px","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-lg":["15px",{"lineHeight":"20px","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-xl":["36px",{"lineHeight":"44px","fontWeight":"700"}],"display-hero-mobile":["32px",{"lineHeight":"40px","fontWeight":"800"}],"headline-md":["22px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","fontWeight":"600"}]}}}</script></head><body class="bg-surface font-body-md text-on-surface"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(7,28,53,0.04)]"><div class="bg-primary text-on-primary py-1 px-margin text-xs"><div class="max-w-[1200px] mx-auto flex justify-between items-center font-label-sm text-label-sm"><span>Ligne directe nationale &amp; Réseau d'agences SLKM : +212 (0) 528 84 20 20</span><div class="flex items-center gap-space-md"><a class="hover:text-primary-fixed transition-colors flex items-center gap-space-xs" data-path="espace-pro" href="#"><span class="material-symbols-outlined text-[14px]">business_center</span> Espace Pro &amp; B2B</a><span class="opacity-40">|</span><button class="flex items-center gap-1 font-label-sm text-label-sm hover:text-primary-fixed"><span>FR</span><span class="opacity-40">/</span><span class="font-bold text-secondary-fixed">العربية</span></button></div></div></div><div class="h-20 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="accueil" href="index.html"><div class="w-11 h-11 rounded-xl bg-primary-container flex items-center justify-center text-on-primary font-headline-md text-headline-md tracking-tight font-extrabold shadow-sm">S</div><div class="flex flex-col"><div class="flex items-baseline gap-1.5"><span class="font-headline-sm text-headline-sm tracking-tight text-primary font-extrabold">SLKM</span><span class="text-[13px] font-bold text-on-surface-variant tracking-wide font-label-md text-label-md">TRANSPORT</span></div><span class="text-[11px] font-bold text-secondary tracking-widest font-label-sm text-label-sm">نقل مولاي مبارك</span></div></a><nav class="hidden xl:flex items-center gap-space-md font-label-md text-label-md" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors py-1 text-primary font-bold" data-path="accueil" href="index.html">Accueil</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="nos-lignes" href="trajets.html">Nos Lignes</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="reserver-un-trajet" href="trajets.html">Réserver un trajet</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="messagerie-et-colis" href="messagerie.html">Messagerie &amp; Colis</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="location-minibus" href="#">Location Minibus</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="nos-agences" href="#">Nos Agences</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="a-propos" href="#">À Propos</a><a class="text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="bg-secondary-container text-on-primary font-label-md text-label-md px-5 py-2.5 rounded-xl hover:bg-secondary transition-all shadow-[0_4px_14px_rgba(254,112,42,0.25)] flex items-center gap-2" data-path="reserver-un-trajet" href="trajets.html"><span>Réserver un billet</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></a><a class="flex items-center pl-1" data-path="connexion-voyageur" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-sm" src="assets/avatar.svg"/></a></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO MASTERPIECE WITH LOGO ROAD CURVES -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-primary via-primary-container to-surface-container-low text-on-primary pb-28 pt-8">
+<!-- Decorative Highway Ribbon Ambient SVG (Echoing the SLKM Logo) -->
+<div class="absolute inset-0 pointer-events-none opacity-20 overflow-hidden">
+<svg class="w-full h-full preserve-3d" fill="none" viewbox="0 0 1440 680" xmlns="http://www.w3.org/2000/svg">
+<path class="text-secondary-container" d="M-100 480C260 520 480 340 760 280C1080 210 1340 380 1600 320" stroke="currentColor" stroke-linecap="round" stroke-width="48"></path>
+<path class="text-on-primary" d="M-60 495C300 535 520 355 800 295C1120 225 1380 395 1640 335" stroke="currentColor" stroke-dasharray="24 16" stroke-width="8"></path>
+<circle class="text-secondary-container/30 blur-3xl" cx="780" cy="180" fill="currentColor" r="140"></circle>
+<circle class="text-primary-fixed/20 blur-2xl" cx="300" cy="120" fill="currentColor" r="180"></circle>
+</svg>
+</div>
+<div class="relative max-w-[1200px] mx-auto px-margin flex flex-col gap-8">
+<!-- Institutional Eyebrow & Badges -->
+<div class="flex flex-wrap items-center justify-between gap-4">
+<div class="inline-flex items-center gap-2 bg-on-primary/10 backdrop-blur-md px-4 py-1.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm tracking-wide text-primary-fixed uppercase">Transporteur National Agréé</span>
+<span class="text-on-primary/40">•</span>
+<span class="font-label-sm text-label-sm font-bold text-secondary-fixed">نقل مولاي مبارك</span>
+</div>
+<div class="flex items-center gap-3 text-primary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">verified_user</span>
+<span>Billet sécurisé CMI</span>
+<span class="opacity-40">|</span>
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">support_agent</span>
+<span>Assistance Agences 7j/7</span>
+</div>
+</div>
+<!-- Main Headline Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+<div class="lg:col-span-8 flex flex-col gap-4">
+<h1 class="font-display-hero text-display-hero tracking-tight text-on-primary">
+            Voyagez l’esprit tranquille avec <span class="text-secondary-fixed">SLKM</span>
+<span class="block text-2xl lg:text-3xl font-bold text-primary-fixed mt-1 tracking-normal font-headline-md">
+              نقل مولاي مبارك – رائد النقل الطرقي والطرود السريعة
+            </span>
+</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed/90 max-w-2xl">
+            Réseau d'autocars de haute sécurité reliant les capitales économiques, les métropoles régionales et le Grand Sud marocain. Messagerie express en 24h et affrètement d'exception.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-3">
+<div class="bg-surface-container-lowest/15 backdrop-blur-md p-4 rounded-xl flex items-center justify-between">
+<div>
+<div class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Ligne Express du Jour</div>
+<div class="font-headline-sm text-headline-sm font-bold text-on-primary">Agadir ⇄ Guelmim Bab Sahara</div>
+</div>
+<span class="font-headline-sm text-headline-sm font-extrabold text-secondary-fixed">65 MAD</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-primary-fixed/80">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">schedule</span>
+<span>Départs garantis toutes les 90 minutes dès 05:30</span>
+</div>
+</div>
+</div>
+<!-- FLOATING MULTI-SERVICE SEARCH CONSOLE -->
+<div class="mt-4 bg-surface-container-lowest rounded-2xl shadow-xl overflow-hidden text-on-surface">
+<!-- Interactive Service Tabs -->
+<div class="flex items-center bg-surface-container-low px-4 pt-3 gap-2">
+<button class="flex items-center gap-2 px-6 py-3 rounded-t-xl font-label-lg text-label-lg transition-all bg-surface-container-lowest text-primary shadow-sm" id="tab-passengers" onclick="switchMainTab('passengers')">
+<span class="material-symbols-outlined text-[20px]">directions_bus</span>
+<span>Voyageurs &amp; Billetterie</span>
+<span class="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-bold">Direct</span>
+</button>
+<button class="flex items-center gap-2 px-6 py-3 rounded-t-xl font-label-lg text-label-lg transition-all text-on-surface-variant hover:text-on-surface" id="tab-parcels" onclick="switchMainTab('parcels')">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+<span>Messagerie &amp; Suivi Colis</span>
+<span class="text-xs bg-secondary-container/10 text-secondary px-2 py-0.5 rounded-full font-bold">24H Chrono</span>
+</button>
+<div class="ml-auto hidden md:flex items-center gap-2 pr-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">wifi</span>
+<span>Wi-Fi Gratuit</span>
+<span class="opacity-40">•</span>
+<span class="material-symbols-outlined text-[18px] text-primary">airline_seat_recline_extra</span>
+<span>Sièges Grand Confort</span>
+</div>
+</div>
+<!-- Panel 1: Passengers Search Engine -->
+<div class="p-6 flex flex-col gap-4" id="panel-passengers">
+<form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-3 items-center">
+<!-- Departure -->
+<div class="lg:col-span-3 bg-surface-container-low rounded-xl p-3 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5 font-bold uppercase">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>Origine (Départ)</span>
+</label>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">trip_origin</span>
+<select class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface font-semibold focus:outline-none cursor-pointer" id="select-origin">
+<option value="Agadir">Agadir (Gare Al Massira)</option>
+<option value="Casablanca">Casablanca (Gare Oulad Ziane)</option>
+<option value="Guelmim">Guelmim (Bab Sahara)</option>
+<option value="Tan-Tan">Tan-Tan (Gare Centrale)</option>
+<option value="Tiznit">Tiznit (Bab Aglou)</option>
+<option value="Laâyoune">Laâyoune (Place Dcheira)</option>
+<option value="Marrakech">Marrakech (Bab Doukkala)</option>
+</select>
+</div>
+</div>
+<!-- Invert Button Button -->
+<div class="hidden lg:flex lg:col-span-1 justify-center -mx-4 z-10">
+<button class="w-10 h-10 rounded-full bg-surface-container-lowest shadow-md flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" onclick="swapStations()" title="Permuter départ et arrivée" type="button">
+<span class="material-symbols-outlined text-[20px]">swap_horiz</span>
+</button>
+</div>
+<!-- Arrival -->
+<div class="lg:col-span-3 bg-surface-container-low rounded-xl p-3 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5 font-bold uppercase">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>Destination (Arrivée)</span>
+</label>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[20px]">location_on</span>
+<select class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface font-semibold focus:outline-none cursor-pointer" id="select-destination">
+<option value="Guelmim">Guelmim (Bab Sahara)</option>
+<option value="Agadir">Agadir (Gare Al Massira)</option>
+<option value="Tan-Tan">Tan-Tan (Gare Centrale)</option>
+<option value="Sidi Ifni">Sidi Ifni (Centre)</option>
+<option value="Laâyoune">Laâyoune (Place Dcheira)</option>
+<option value="Dakhla">Dakhla (Gare Maritime)</option>
+<option value="Casablanca">Casablanca (Gare Oulad Ziane)</option>
+</select>
+</div>
+</div>
+<!-- Date & Travelers -->
+<div class="lg:col-span-3 grid grid-cols-2 gap-2">
+<div class="bg-surface-container-low rounded-xl p-3 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase">Date de départ</label>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">calendar_today</span>
+<input class="bg-transparent font-label-md text-label-md font-bold text-on-surface focus:outline-none w-full cursor-pointer" type="date" value="2025-05-15"/>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-3 flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase">Voyageurs</label>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">group</span>
+<select class="bg-transparent font-label-md text-label-md font-bold text-on-surface focus:outline-none cursor-pointer w-full">
+<option>1 Adulte</option>
+<option>2 Adultes</option>
+<option>3 Adultes</option>
+<option>Famille (4+)</option>
+</select>
+</div>
+</div>
+</div>
+<!-- Action Search -->
+<div class="lg:col-span-2">
+<button class="w-full h-[62px] bg-secondary-container hover:bg-secondary text-on-primary font-headline-sm text-headline-sm rounded-xl transition-all shadow-lg flex items-center justify-center gap-2 group" type="button">
+<span>Trouver un départ</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">search</span>
+</button>
+</div>
+</form>
+<!-- Reassurance pill tags -->
+<div class="flex flex-wrap items-center justify-between pt-2 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex flex-wrap items-center gap-4">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-[18px]">verified</span> Réservation sans frais cachés</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-[18px]">qr_code_2</span> E-billet avec QR Code instantané</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-[18px]">airline_seat_recline_normal</span> Choix précis du siège</span>
+</div>
+<div class="text-secondary font-label-md text-label-md font-bold">
+              +120 trajets disponibles aujourd'hui
+            </div>
+</div>
+</div>
+<!-- Panel 2: Fast Parcel Tracking & Simulator -->
+<div class="p-6 hidden flex flex-col gap-4" id="panel-parcels">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-center">
+<div class="lg:col-span-7 bg-surface-container-low p-4 rounded-xl flex flex-col gap-2">
+<span class="font-label-sm text-label-sm font-bold uppercase text-primary">Suivi National en Direct</span>
+<div class="flex items-center gap-3">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline">search</span>
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" placeholder="Entrez votre N° de récépissé SLKM (ex: SLKM-88421-AG)" type="text"/>
+</div>
+<button class="bg-primary hover:bg-tertiary text-on-primary px-6 py-2.5 rounded-lg font-label-md text-label-md font-bold transition-colors flex items-center gap-2" type="button">
+<span>Tracer le colis</span>
+<span class="material-symbols-outlined text-[18px]">local_shipping</span>
+</button>
+</div>
+</div>
+<div class="lg:col-span-5 bg-surface-container-low p-4 rounded-xl flex items-center justify-between">
+<div>
+<div class="font-label-sm text-label-sm font-bold uppercase text-secondary">Estimation Express</div>
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface">Colis standard (-5 kg)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Livraison sous 24h en agence relais</p>
+</div>
+<div class="text-right">
+<span class="font-display-hero-mobile text-display-hero-mobile font-extrabold text-secondary">35 <span class="font-label-md text-label-md">MAD</span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- KEY METRICS & REASSURANCE STATS BANNER -->
+<section class="w-full bg-surface-container-lowest -mt-12 relative z-20 shadow-md">
+<div class="max-w-[1200px] mx-auto px-margin py-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center divide-x-0 md:divide-x-0">
+<div class="flex flex-col items-center gap-1 p-2">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[28px] text-secondary">history_edu</span>
+<span class="font-display-hero-mobile text-display-hero-mobile font-extrabold">+25</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Années d'excellence</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Savoir-faire historique sur les routes du Sud</span>
+</div>
+<div class="flex flex-col items-center gap-1 p-2">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[28px] text-secondary">store</span>
+<span class="font-display-hero-mobile text-display-hero-mobile font-extrabold">34</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Agences Régionales</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Implantation clé dans les gares et centres urbains</span>
+</div>
+<div class="flex flex-col items-center gap-1 p-2">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[28px] text-secondary">departure_board</span>
+<span class="font-display-hero-mobile text-display-hero-mobile font-extrabold">120+</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Départs Quotidiens</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ponctualité mesurée et rotation régulière</span>
+</div>
+<div class="flex flex-col items-center gap-1 p-2">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[28px] text-secondary">thumb_up</span>
+<span class="font-display-hero-mobile text-display-hero-mobile font-extrabold">98.4%</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Satisfaction Voyageur</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Recommandé par des milliers de familles marocaines</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 1: POPULAR ROUTES & REAL-TIME FARES -->
+<section class="w-full py-16 bg-surface">
+<div class="max-w-[1200px] mx-auto px-margin flex flex-col gap-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>Réseau Express Interurbain</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface mt-1">
+            Nos Lignes Régulières &amp; Tarifs Officiels
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-1">
+            Profitez de départs échelonnés tout au long de la journée avec autocars de dernière génération climatisés.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-4 py-2 rounded-xl bg-surface-container-high font-label-md text-label-md text-primary font-bold hover:bg-surface-container-highest transition-colors">
+            Toutes les lignes (60+)
+          </button>
+</div>
+</div>
+<!-- Ticket Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Route 1: Agadir -> Guelmim -->
+<div class="group bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full font-label-sm text-label-sm bg-primary/10 text-primary font-bold">Ligne Star</span>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">bolt</span>
+<span>Départs / 1h30</span>
+</div>
+</div>
+<div class="flex items-start justify-between gap-2 pt-2">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Départ</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Agadir</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gare Al Massira</span>
+</div>
+<div class="flex flex-col items-center justify-center pt-2">
+<span class="font-label-sm text-label-sm text-secondary font-bold">3h 30min</span>
+<div class="w-16 h-0.5 bg-surface-container-highest my-1 relative">
+<div class="absolute -top-1 right-0 w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Direct</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Arrivée</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Guelmim</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bab Sahara</span>
+</div>
+</div>
+<!-- Features -->
+<div class="flex items-center gap-3 pt-3 text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1" title="Climatisation intégrale"><span class="material-symbols-outlined text-[16px] text-primary">ac_unit</span> Clim</span>
+<span class="flex items-center gap-1" title="Wi-Fi"><span class="material-symbols-outlined text-[16px] text-primary">wifi</span> Wi-Fi</span>
+<span class="flex items-center gap-1" title="Prise USB individuelle"><span class="material-symbols-outlined text-[16px] text-primary">power</span> USB</span>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between bg-surface-container-low -mx-5 -mb-5 px-5 py-3 rounded-b-2xl">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">À partir de</span>
+<span class="font-headline-lg text-headline-lg font-extrabold text-primary">65 <span class="font-label-sm text-label-sm font-semibold">MAD</span></span>
+</div>
+<a class="bg-secondary-container hover:bg-secondary text-on-primary px-4 py-2 rounded-xl font-label-md text-label-md font-bold transition-all shadow-sm" data-path="reserver-un-trajet" href="trajets.html">
+              Réserver
+            </a>
+</div>
+</div>
+<!-- Route 2: Guelmim -> Tan-Tan -->
+<div class="group bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full font-label-sm text-label-sm bg-primary/10 text-primary font-bold">Liaison Sud</span>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">schedule</span>
+<span>8 départs/j</span>
+</div>
+</div>
+<div class="flex items-start justify-between gap-2 pt-2">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Départ</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Guelmim</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bab Sahara</span>
+</div>
+<div class="flex flex-col items-center justify-center pt-2">
+<span class="font-label-sm text-label-sm text-secondary font-bold">2h 15min</span>
+<div class="w-16 h-0.5 bg-surface-container-highest my-1 relative">
+<div class="absolute -top-1 right-0 w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Express</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Arrivée</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Tan-Tan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gare Centrale</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-3 text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">ac_unit</span> Clim</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">airline_seat_recline_extra</span> Sièges XL</span>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between bg-surface-container-low -mx-5 -mb-5 px-5 py-3 rounded-b-2xl">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">À partir de</span>
+<span class="font-headline-lg text-headline-lg font-extrabold text-primary">45 <span class="font-label-sm text-label-sm font-semibold">MAD</span></span>
+</div>
+<a class="bg-secondary-container hover:bg-secondary text-on-primary px-4 py-2 rounded-xl font-label-md text-label-md font-bold transition-all shadow-sm" data-path="reserver-un-trajet" href="trajets.html">
+              Réserver
+            </a>
+</div>
+</div>
+<!-- Route 3: Agadir -> Laâyoune (Grand Sud VIP) -->
+<div class="group bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full font-label-sm text-label-sm bg-secondary-container/10 text-secondary font-bold">Grand Confort VIP</span>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">hotel</span>
+<span>Nuit / Jour</span>
+</div>
+</div>
+<div class="flex items-start justify-between gap-2 pt-2">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Départ</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Agadir</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Al Massira</span>
+</div>
+<div class="flex flex-col items-center justify-center pt-2">
+<span class="font-label-sm text-label-sm text-secondary font-bold">9h 00min</span>
+<div class="w-16 h-0.5 bg-surface-container-highest my-1 relative">
+<div class="absolute -top-1 right-0 w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ligne VIP</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Arrivée</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Laâyoune</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Place Dcheira</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-3 text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">wifi</span> Wi-Fi 4G</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">tv</span> Écran HD</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">coffee</span> Snack</span>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between bg-surface-container-low -mx-5 -mb-5 px-5 py-3 rounded-b-2xl">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">À partir de</span>
+<span class="font-headline-lg text-headline-lg font-extrabold text-primary">180 <span class="font-label-sm text-label-sm font-semibold">MAD</span></span>
+</div>
+<a class="bg-secondary-container hover:bg-secondary text-on-primary px-4 py-2 rounded-xl font-label-md text-label-md font-bold transition-all shadow-sm" data-path="reserver-un-trajet" href="trajets.html">
+              Réserver
+            </a>
+</div>
+</div>
+<!-- Route 4: Casablanca -> Agadir / Guelmim -->
+<div class="group bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full font-label-sm text-label-sm bg-primary/10 text-primary font-bold">Autoroute Express</span>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">schedule</span>
+<span>Quotidien</span>
+</div>
+</div>
+<div class="flex items-start justify-between gap-2 pt-2">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Départ</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Casablanca</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Oulad Ziane</span>
+</div>
+<div class="flex flex-col items-center justify-center pt-2">
+<span class="font-label-sm text-label-sm text-secondary font-bold">5h 30min</span>
+<div class="w-16 h-0.5 bg-surface-container-highest my-1 relative">
+<div class="absolute -top-1 right-0 w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">A3 Direct</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Arrivée</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Agadir</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gare Al Massira</span>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-3 text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">airline_seat_recline_extra</span> Confort</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">luggage</span> Bagages 30kg</span>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between bg-surface-container-low -mx-5 -mb-5 px-5 py-3 rounded-b-2xl">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">À partir de</span>
+<span class="font-headline-lg text-headline-lg font-extrabold text-primary">150 <span class="font-label-sm text-label-sm font-semibold">MAD</span></span>
+</div>
+<a class="bg-secondary-container hover:bg-secondary text-on-primary px-4 py-2 rounded-xl font-label-md text-label-md font-bold transition-all shadow-sm" data-path="reserver-un-trajet" href="trajets.html">
+              Réserver
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: DUAL SLKM PILLARS (PASSENGER FLEET vs PARCEL COURIER) -->
+<section class="w-full py-16 bg-surface-container-low">
+<div class="max-w-[1200px] mx-auto px-margin flex flex-col gap-12">
+<!-- Section Intro -->
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-2">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Deux Métiers d'Excellence</span>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface">
+          Une Logistique Intégrée pour les Hommes et les Marchandises
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Société de Transport et de Messagerie Moulay Mbarek : la synergie parfaite entre autocars de prestige et livraison express sur tout le territoire.
+        </p>
+</div>
+<!-- Bento Grid 2 Columns Split -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+<!-- Pillar A: Fleet & Traveler Experience -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-6">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">directions_bus</span>
+</div>
+<span class="bg-primary/10 text-primary px-3 py-1 rounded-full font-label-sm text-label-sm font-bold">Flotte Mercedes Travego</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-lg text-headline-lg font-bold text-on-surface">Transport Interurbain Haut de Gamme</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Nos autocars répondent aux normes internationales de sécurité routière : suspensions pneumatiques actives, désinfection systématique avant chaque trajet et double équipage de chauffeurs assermentés sur les longues distances.
+              </p>
+</div>
+<!-- Visual Fleet Showcase -->
+<div class="relative rounded-xl overflow-hidden shadow-sm h-52">
+<img class="w-full h-full object-cover" data-alt="Modern blue and white luxury passenger bus Mercedes Travego driving on a scenic highway in Southern Morocco with desert mountain hills in background under sunny sky, realistic photography, professional corporate transport style" src="assets/img-01.jpg"/>
+<div class="absolute bottom-3 left-3 bg-inverse-surface/80 backdrop-blur-md text-inverse-on-surface px-3 py-1.5 rounded-lg flex items-center gap-2 text-xs font-semibold">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">verified</span>
+                Contrôle technique certifié toutes les 3 000 km
+              </div>
+</div>
+<!-- Bullet points features -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">airline_seat_recline_extra</span>
+<span>Sièges anatomiques inclinables</span>
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">wifi</span>
+<span>Connexion 4G illimitée</span>
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">ac_unit</span>
+<span>Climatisation thermo-régulée</span>
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">videocam</span>
+<span>Vidéosurveillance embarquée</span>
+</div>
+</div>
+</div>
+<div class="pt-8">
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg text-primary hover:text-tertiary font-bold" data-path="nos-lignes" href="trajets.html">
+<span>Découvrir tous les horaires et étapes</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Pillar B: Messagerie & Colis Express -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-6">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/10 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">inventory_2</span>
+</div>
+<span class="bg-secondary-container/10 text-secondary px-3 py-1 rounded-full font-label-sm text-label-sm font-bold">Réseau 34 Relais Agences</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-lg text-headline-lg font-bold text-on-surface">Messagerie Express &amp; Fret de Colis</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Expédiez plis confidentiels, paquets e-commerce, marchandises artisanales ou cartons volumineux. Acheminement rapide dans les soutes sécurisées de nos lignes régulières quotidiennes.
+              </p>
+</div>
+<!-- Visual Parcel Hub Showcase -->
+<div class="relative rounded-xl overflow-hidden shadow-sm h-52">
+<img class="w-full h-full object-cover" data-alt="Organized logistics sorting facility and delivery depot with courier staff in uniform scanning parcels and loading them into courier van in Morocco, warm ambient lighting, corporate logistics aesthetic" src="assets/img-04.jpg"/>
+<div class="absolute bottom-3 left-3 bg-inverse-surface/80 backdrop-blur-md text-inverse-on-surface px-3 py-1.5 rounded-lg flex items-center gap-2 text-xs font-semibold">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">alarm</span>
+                Dépôt avant 11h = Arrivée le jour même
+              </div>
+</div>
+<!-- Integrated Fast Tracking Box -->
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">Simulateur Tarif Colis Rapide</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">Barème Officiel SLKM</span>
+</div>
+<div class="grid grid-cols-3 gap-2 text-center">
+<div class="bg-surface-container-lowest p-2 rounded-lg">
+<div class="font-label-sm text-label-sm text-on-surface-variant">Plis &lt; 1 kg</div>
+<div class="font-headline-sm text-headline-sm font-bold text-secondary">25 MAD</div>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded-lg">
+<div class="font-label-sm text-label-sm text-on-surface-variant">Colis 1-5 kg</div>
+<div class="font-headline-sm text-headline-sm font-bold text-secondary">35 MAD</div>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded-lg">
+<div class="font-label-sm text-label-sm text-on-surface-variant">Colis 5-20 kg</div>
+<div class="font-headline-sm text-headline-sm font-bold text-secondary">60 MAD</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-8">
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg text-secondary hover:text-on-secondary-fixed-variant font-bold" data-path="messagerie-et-colis" href="messagerie.html">
+<span>Accéder à l'espace Messagerie &amp; Tarifs détaillés</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: CHARTER / LOCATION MINIBUS & VOYAGES DE GROUPE -->
+<section class="w-full py-16 bg-surface">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="bg-gradient-to-r from-primary via-primary-container to-tertiary-container rounded-3xl p-8 lg:p-12 text-on-primary shadow-xl overflow-hidden relative">
+<!-- Background accents -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+<div class="lg:col-span-7 flex flex-col gap-5">
+<div class="inline-flex items-center gap-2 bg-on-primary/10 backdrop-blur-md px-3 py-1 rounded-full w-max">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">airport_shuttle</span>
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase font-bold tracking-wide">Service Sur-Mesure SLKM Charter</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl font-bold leading-tight">
+              Location d'Autocars &amp; Minibus avec Chauffeur Professionnel
+            </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed/90">
+              Entreprises, associations, délégations sportives, agences de voyage ou événements familiaux : privatisez nos véhicules grand tourisme de 14 à 54 places pour vos circuits touristiques au Maroc et transferts aéroport (Agadir Al Massira, Marrakech Menara, Casablanca Mohammed V).
+            </p>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2">
+<div class="bg-surface-container-lowest/10 backdrop-blur-sm p-3 rounded-xl flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">badge</span>
+<span class="font-label-md text-label-md text-on-primary">Chauffeurs Certifiés</span>
+</div>
+<div class="bg-surface-container-lowest/10 backdrop-blur-sm p-3 rounded-xl flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">route</span>
+<span class="font-label-md text-label-md text-on-primary">Itinéraires Libres</span>
+</div>
+<div class="bg-surface-container-lowest/10 backdrop-blur-sm p-3 rounded-xl flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]">receipt_long</span>
+<span class="font-label-md text-label-md text-on-primary">Devis 24h Garanti</span>
+</div>
+</div>
+<div class="pt-4 flex flex-wrap items-center gap-4">
+<a class="bg-secondary-container hover:bg-secondary text-on-primary px-6 py-3.5 rounded-xl font-label-lg text-label-lg font-bold transition-all shadow-lg flex items-center gap-2" data-path="location-minibus" href="#">
+<span>Demander un devis gratuit</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</a>
+<a class="bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-on-primary px-5 py-3.5 rounded-xl font-label-lg text-label-lg font-bold transition-colors flex items-center gap-2" href="tel:+212528842020">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>Pôle Affrètement : 0528 84 20 20</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="rounded-2xl overflow-hidden shadow-2xl">
+<img class="w-full h-80 object-cover" data-alt="Modern sleek Mercedes Sprinter executive white VIP minibus parked next to palm trees on an ocean road in Morocco, premium passenger transfer fleet, golden hour lighting" src="assets/img-03.jpg"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: INTERACTIVE NETWORK MAP & REGIONAL AGENCIES DIRECTORY -->
+<section class="w-full py-16 bg-surface-container-low">
+<div class="max-w-[1200px] mx-auto px-margin flex flex-col gap-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Présence sur le terrain</span>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface mt-1">
+            Notre Réseau d'Agences à Travers le Royaume
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-1">
+            Guichets de billetterie physique, dépôts et retraits de colis express, assistance bagages et renseignements horaires.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<input class="px-4 py-2.5 rounded-xl bg-surface-container-lowest font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm w-64" id="agency-filter" oninput="filterAgencies()" placeholder="Rechercher une ville (ex: Agadir, Guelmim...)" type="text"/>
+</div>
+</div>
+<!-- Map & Agency Directory Dual View -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Interactive Static Map View with data-location -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">explore</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">Carte du Réseau SLKM</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Hub Principal : Agadir &amp; Guelmim</span>
+</div>
+<!-- Google Maps static component -->
+<div class="w-full h-80 rounded-xl bg-cover bg-center overflow-hidden relative shadow-inner" data-location="Agadir, Morocco" style="background-image: url('assets/img-02.png')">
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded-lg text-xs font-bold text-on-surface shadow-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-ping"></span>
+              Axe Stratégique Souss-Massa &amp; Sahara
+            </div>
+</div>
+<div class="p-2 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Interconnexions directes vers 34 villes marocaines</span>
+<a class="text-primary font-bold hover:underline" data-path="nos-agences" href="#">Voir la carte plein écran</a>
+</div>
+</div>
+<!-- Agencies Cards Grid -->
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4" id="agencies-container">
+<!-- Agency 1: Agadir Al Massira -->
+<div class="agency-card bg-surface-container-lowest p-5 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow" data-city="agadir">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Agadir</span>
+<span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-primary/10 text-primary font-bold">Agence Principale</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gare Routière Al Massira, Guichets 14 &amp; 15, Av. Hassan II</p>
+<div class="flex items-center gap-2 text-body-sm font-body-sm text-on-surface mt-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">schedule</span>
+<span>Ouvert 24h/24 – 7j/7</span>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<span class="font-label-md text-label-md font-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">call</span>
+                +212 528 84 20 20
+              </span>
+<a class="text-on-surface-variant hover:text-primary" href="#"><span class="material-symbols-outlined text-[20px]">near_me</span></a>
+</div>
+</div>
+<!-- Agency 2: Guelmim Bab Sahara -->
+<div class="agency-card bg-surface-container-lowest p-5 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow" data-city="guelmim">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Guelmim</span>
+<span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-secondary-container/10 text-secondary font-bold">Hub Sud</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gare Routière Bab Sahara, Centre d'Affaires Moulay Mbarek</p>
+<div class="flex items-center gap-2 text-body-sm font-body-sm text-on-surface mt-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">schedule</span>
+<span>05:00 – 00:00 (Tous les jours)</span>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<span class="font-label-md text-label-md font-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">call</span>
+                +212 528 77 12 40
+              </span>
+<a class="text-on-surface-variant hover:text-primary" href="#"><span class="material-symbols-outlined text-[20px]">near_me</span></a>
+</div>
+</div>
+<!-- Agency 3: Casablanca Oulad Ziane -->
+<div class="agency-card bg-surface-container-lowest p-5 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow" data-city="casablanca">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Casablanca</span>
+<span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-surface-container-high text-on-surface font-bold">Agence Centrale</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gare Routière Oulad Ziane, Quai 28 &amp; Bureau Messagerie</p>
+<div class="flex items-center gap-2 text-body-sm font-body-sm text-on-surface mt-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">schedule</span>
+<span>06:00 – 23:00</span>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<span class="font-label-md text-label-md font-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">call</span>
+                +212 522 54 80 10
+              </span>
+<a class="text-on-surface-variant hover:text-primary" href="#"><span class="material-symbols-outlined text-[20px]">near_me</span></a>
+</div>
+</div>
+<!-- Agency 4: Tan-Tan Centre -->
+<div class="agency-card bg-surface-container-lowest p-5 rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow" data-city="tan-tan tantan">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Tan-Tan</span>
+<span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm bg-surface-container-high text-on-surface font-bold">Relais Lignes</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Boulevard Mohammed V, en face de la Grande Poste</p>
+<div class="flex items-center gap-2 text-body-sm font-body-sm text-on-surface mt-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">schedule</span>
+<span>06:30 – 22:30</span>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<span class="font-label-md text-label-md font-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">call</span>
+                +212 528 87 63 90
+              </span>
+<a class="text-on-surface-variant hover:text-primary" href="#"><span class="material-symbols-outlined text-[20px]">near_me</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: CUSTOMER REVIEWS & SLKM CHARTER COMMITMENTS -->
+<section class="w-full py-16 bg-surface">
+<div class="max-w-[1200px] mx-auto px-margin flex flex-col gap-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Avis Voyageurs &amp; Clients Messagerie</span>
+<h2 class="font-headline-xl text-headline-xl font-bold text-on-surface mt-1">
+            Ce que nos passagers disent de leur expérience
+          </h2>
+</div>
+<div class="flex items-center gap-2">
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-extrabold text-on-surface">4.8 / 5</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(+14 200 avis certifiés)</span>
+</div>
+</div>
+<!-- Testimonials Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              « Je prends la ligne Agadir-Guelmim deux fois par semaine pour le travail. Autocars très propres, chauffeurs prudents et horaires respectés à la minute près. Bravo SLKM ! »
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold">
+              HB
+            </div>
+<div>
+<div class="font-label-md text-label-md font-bold text-on-surface">Hassan Benali</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Voyageur régulier • Ligne Souss-Sahara</div>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              « Expédition de pièces mécaniques urgentes depuis Casablanca vers Tan-Tan. Le colis est arrivé le lendemain matin en parfait état. Le suivi par SMS est très rassurant. »
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container/10 text-secondary flex items-center justify-center font-bold">
+              SE
+            </div>
+<div>
+<div class="font-label-md text-label-md font-bold text-on-surface">Société Saharamotor</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Client Entreprise B2B Messagerie</div>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              « Réservation du billet en ligne en 2 minutes avec choix du siège côté fenêtre. Paiement CMI sans aucun accroc, et l'e-ticket sur WhatsApp est super pratique. »
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-3">
+<div class="w-10 h-10 rounded-full bg-tertiary/10 text-tertiary flex items-center justify-center font-bold">
+              FM
+            </div>
+<div>
+<div class="font-label-md text-label-md font-bold text-on-surface">Fatima-Zahra M.</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Voyage en famille (Agadir - Laâyoune)</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Institutional Commitment Ribbon -->
+<div class="bg-surface-container-low p-6 rounded-2xl flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface">Agrément Officiel Ministère du Transport &amp; de la Logistique</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">SLKM – Transport Moulay Mbarek respecte scrupuleusement le cahier des charges national.</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<a class="font-label-md text-label-md text-primary hover:underline font-bold" data-path="contact" href="#">Contacter notre médiateur client</a>
+<span class="text-on-surface-variant opacity-40">|</span>
+<a class="font-label-md text-label-md text-primary hover:underline font-bold" data-path="faq" href="#">Consulter la FAQ</a>
+</div>
+</div>
+</div>
+</section>
+<!-- CALL TO ACTION FINAL BANNER -->
+<section class="w-full bg-primary text-on-primary py-12">
+<div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex flex-col gap-2">
+<span class="font-headline-xl text-headline-xl font-bold">Prêt à prendre la route avec SLKM ?</span>
+<p class="font-body-lg text-body-lg text-primary-fixed">Réservez vos places à l'avance pour profiter des meilleurs tarifs et des sièges avant panoramiques.</p>
+</div>
+<div class="flex items-center gap-4">
+<a class="bg-secondary-container hover:bg-secondary text-on-primary px-8 py-4 rounded-xl font-label-lg text-label-lg font-bold transition-all shadow-xl flex items-center gap-2" data-path="reserver-un-trajet" href="trajets.html">
+<span>Réserver un billet maintenant</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+<!-- CLIENT INTERACTIONS SCRIPT -->
+<script>
+  function switchMainTab(type) {
+    const tabPassengers = document.getElementById('tab-passengers');
+    const tabParcels = document.getElementById('tab-parcels');
+    const panelPassengers = document.getElementById('panel-passengers');
+    const panelParcels = document.getElementById('panel-parcels');
+
+    if (!tabPassengers || !tabParcels || !panelPassengers || !panelParcels) return;
+
+    if (type === 'passengers') {
+      tabPassengers.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      tabPassengers.classList.remove('text-on-surface-variant');
+
+      tabParcels.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      tabParcels.classList.add('text-on-surface-variant');
+
+      panelPassengers.classList.remove('hidden');
+      panelParcels.classList.add('hidden');
+    } else {
+      tabParcels.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      tabParcels.classList.remove('text-on-surface-variant');
+
+      tabPassengers.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+      tabPassengers.classList.add('text-on-surface-variant');
+
+      panelParcels.classList.remove('hidden');
+      panelPassengers.classList.add('hidden');
+    }
+  }
+
+  function swapStations() {
+    const orig = document.getElementById('select-origin');
+    const dest = document.getElementById('select-destination');
+    if (!orig || !dest) return;
+    const temp = orig.value;
+    orig.value = dest.value;
+    dest.value = temp;
+  }
+
+  function filterAgencies() {
+    const input = document.getElementById('agency-filter');
+    if (!input) return;
+    const q = input.value.toLowerCase().trim();
+    const cards = document.querySelectorAll('.agency-card');
+    cards.forEach(card => {
+      const city = card.getAttribute('data-city') || '';
+      if (!q || city.includes(q)) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-[1200px] mx-auto px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary font-headline-sm text-headline-sm font-extrabold">S</div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-extrabold tracking-tight">SLKM TRANSPORT</span><span class="text-[12px] font-semibold text-secondary tracking-wider font-label-sm text-label-sm">نقل مولاي مبارك – التميز في خدمتكم</span></div></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Pionnier du transport de voyageurs et de la messagerie rapide à travers le Royaume du Maroc. Flotte moderne d'autocars de dernière génération et maillage national au service de votre confort et de votre sécurité.</p><div class="flex items-center gap-space-sm pt-2"><div class="bg-surface-container-lowest px-3 py-2 rounded-xl flex items-center gap-2 shadow-[0_1px_4px_rgba(0,0,0,0.02)]"><span class="material-symbols-outlined text-primary text-[20px]">verified</span><span class="font-label-sm text-label-sm text-on-surface">Agréé Ministère du Transport</span></div><div class="bg-surface-container-lowest px-3 py-2 rounded-xl flex items-center gap-2 shadow-[0_1px_4px_rgba(0,0,0,0.02)]"><span class="material-symbols-outlined text-secondary text-[20px]">lock</span><span class="font-label-sm text-label-sm text-on-surface">Paiement CMI Sécurisé</span></div></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Voyages &amp; Services</h3><nav class="flex flex-col gap-2 font-body-md text-body-md"><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="reserver-un-trajet" href="trajets.html">Réserver un billet</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="nos-lignes" href="trajets.html">Lignes &amp; Horaires</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="messagerie-et-colis" href="messagerie.html">Suivi de colis express</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="location-minibus" href="#">Location autocars &amp; minibus</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="espace-pro" href="#">Portail Entreprises B2B</a></nav></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Informations SLKM</h3><nav class="flex flex-col gap-2 font-body-md text-body-md"><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="a-propos" href="#">À propos de SLKM</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="nos-agences" href="#">Réseau des 60+ Agences</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#">Service Réclamations</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="faq" href="#">Foire Aux Questions</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="conditions-generales" href="#">Conditions de Transport</a></nav></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Assistance &amp; Dépôt</h3><div class="flex flex-col gap-3 font-body-md text-body-md text-on-surface-variant"><div class="flex items-start gap-2"><span class="material-symbols-outlined text-primary text-[18px] mt-0.5">call</span><div><p class="font-label-md text-label-md text-on-surface font-semibold">Centre d'appel 7j/7</p><p class="text-body-sm font-body-sm">+212 (0) 528 84 20 20</p></div></div><div class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">local_shipping</span><div><p class="font-label-md text-label-md text-on-surface font-semibold">Messagerie &amp; Fret</p><p class="text-body-sm font-body-sm">messagerie@slkm-transport.ma</p></div></div><div class="flex items-start gap-2"><span class="material-symbols-outlined text-primary text-[18px] mt-0.5">location_on</span><p class="text-body-sm font-body-sm">Gare Routière Principale, Agadir / Casablanca, Maroc</p></div></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant text-body-sm font-body-sm"><p>© 2025 SLKM – Société de Transport et Messagerie Moulay Mbarek. Tous droits réservés.</p><div class="flex items-center gap-space-md"><a class="hover:text-primary transition-colors" data-path="mentions-legales" href="#">Mentions légales</a><a class="hover:text-primary transition-colors" data-path="confidentialite" href="#">Protection des données (CNDP)</a><a class="hover:text-primary transition-colors" data-path="conditions-generales" href="#">CGV &amp; Billetterie</a></div></div></div></footer></body></html>
